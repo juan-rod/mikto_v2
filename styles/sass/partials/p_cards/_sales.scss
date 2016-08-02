@@ -1,0 +1,21 @@
+.p_card-content{
+	.p_card-body{
+		.p_card-salesContent{
+			padding:0;
+			.second{
+				position: relative;
+				bottom: 50;
+			}
+			.salesWidget{
+				margin: -80 auto 0;
+			}
+			img{
+				height: auto;
+				max-height: 650px;
+				width: 100%;
+				margin: -40 auto 0;
+			}
+
+		}
+	}
+}

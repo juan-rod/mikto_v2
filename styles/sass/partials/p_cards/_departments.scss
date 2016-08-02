@@ -1,0 +1,17 @@
+.p_card-content{
+	.p_card-body{
+		.p_card-depContent{
+			padding:0;
+			img{
+				height: auto;
+				max-height: 650px;
+				width: 100%;
+				margin: -40 auto 0;
+			}
+			p{
+				position: relative;
+				bottom:100;
+			}
+		}
+	}
+}

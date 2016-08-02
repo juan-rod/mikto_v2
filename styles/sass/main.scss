@@ -1,0 +1,42 @@
+@import "base";
+@import "mediaQ";
+@import "animation";
+@import "partials/nav";
+@import "partials/body";
+@import "partials/p_cards/cashiers";
+@import "partials/p_cards/departments";
+@import "partials/p_cards/sales";
+@import "partials/p_cards/comparison";
+@import "partials/p_cards/reporting";
+
+body{
+
+  font-family: $font-stack-OpenSans;
+	// color: $text-color;
+	// height: 100vh; 
+	background: url('../../data/images/building.jpg') no-repeat center center fixed;
+  	background-size: cover;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+/*//////////////////////////////////////*/
+/*///// borders /////// */
+.border2 {
+  border: 2px dotted black; }
+
+.border4 {
+  border: 4px dotted black; }
+
+.border6 {
+  border: 6px dotted black; }
+
+.borderRed {
+  border: 2px solid red; }
+
+.borderYellow {
+  border: 2px solid yellow; }
